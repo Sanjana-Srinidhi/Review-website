@@ -1,0 +1,9 @@
+{
+	"server" : {
+		"host" : "localhost",
+		"port" : 5150
+	},
+	"database" : {
+		"uri": "mongodb://localhost/gadgets"
+	}
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #43cea2, #185a9d);
+        }
+        
+        h1 {
+            text-align: center;
+            text-decoration: dotted underline;
+        }
+        
+        form {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+            background-color: #fff;
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Login</h1>
+    <form action="/login" method="post">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" placeholder="Entert your username">
+        </div>
+        <br>
+        <div padding="20px 20px">
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Entert your Password">
+        </div>
+        <br>
+        <button>Login</button>
+    </form>
+</body>
+
+</html>

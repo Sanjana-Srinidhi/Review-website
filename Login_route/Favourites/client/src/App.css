@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+
+body {
+	font-family: 'Roboto', sans-serif !important;
+	background-color: #EAEAEA;
+	background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.rawpixel.com%2Fs3fs-private%2Frawpixel_images%2Fwebsite_content%2Fv944-bb-16.jpg%3Fw%3D800%26dpr%3D1%26fit%3Ddefault%26crop%3Ddefault%26q%3D65%26vib%3D3%26con%3D3%26usm%3D15%26bg%3DF4F4F3%26ixlib%3Djs-2.2.1%26s%3Db204c8b2d8b3e450514bdfcffad89cc3&imgrefurl=https%3A%2F%2Fwww.rawpixel.com%2Fsearch%2Fbackground%2520minimalist&tbnid=lIO-dYDpI1yIQM&vet=12ahUKEwidyfOYj9T0AhWvt2MGHdN3AuAQMygBegUIARDSAQ..i&docid=GMjfvvU_55HU2M&w=800&h=533&itg=1&q=minimalist%20background&hl=en&ved=2ahUKEwidyfOYj9T0AhWvt2MGHdN3AuAQMygBegUIARDSAQ");
+}
+
+* {
+	border-radius: 0 !important;
+}
+
+.bg-dark {
+	background-color: #333 !important;
+}
+
+.btn-dark {
+	background-color: #333 !important;
+}
+
+.btn-dark:hover {
+	filter: brightness(1.2);
+}
+
+.btn-outline-dark:hover {
+	background-color: #333 !important;
+}
+
+.navigation-link {
+	cursor: pointer;
+}
+
+/*
+** Card
+*/
+
+.card {
+	background-color: transparent;
+	border: 0;
+}
+
+.card-title{
+	overflow:hidden; 
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.card-text{
+	word-wrap: break-word;
+}

@@ -1,0 +1,277 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.main{
+    width:100%;
+    background: linear-gradient(to top,rgba(66, 65, 65, 0.5)10%,rgba(82, 80, 80, 0.5)10%),url(https://www.liveecommerce.com.br/wp-content/uploads/2021/03/BB1cBnH2.jfif_.png);
+    background-position: center;background-size:cover;
+    height:100vh;
+
+}
+
+.navbar{
+    width:1200px;
+    height:75px;
+    margin:auto;
+}
+.icon{
+    width: 200px;
+    float:left;
+    height:80px
+}
+.logo{
+    color:#dae6c5;
+    font-size: 35px;
+    font-family: Geneva;
+    padding-right: 100px;
+    float: left;
+    padding-top: 40px;
+}
+
+.menu{
+    width:500px;
+    float:left;
+    height:90px;
+    padding-left: 50px;
+    padding-top: 5px;
+	position: absolute;
+	top: 8px;
+	right: 16px;
+}
+ul{
+    float:left;
+    display:flex;
+    justify-content:center;
+    align-items:left;
+    color: #855414;
+}
+ul li{
+    list-style:none;
+    margin-top:40px;
+    font-size:20px;
+    color:#48a5a7;
+    padding-left:60px;
+    font-weight: bold;
+}
+
+ul li a{
+    text-decoration:none;
+    color: white;
+    font-family: Geneva;
+    font-size: 20px;
+    font-weight:bold;
+    transition: 0.2s ease-in-out;
+    margin-top: 20px;
+}
+ul li a:hover{
+    color:rgb(35, 178, 189);
+}
+
+.search{
+width: 330px;
+margin-left: 1005px;
+padding-top: 35px;
+}
+.srch{
+    font-size: 15px;
+    height: 35px;
+    letter-spacing: 1px;
+    background: transparent;
+    border: 1px solid rgba(245, 243, 243, 0.979);
+    margin-top: .5px;
+    color: snow;
+    border-right: none;
+    font-size: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-family: Geneva;
+    width: 205px;
+    text-align:center;
+    float: left;
+}
+.btn{
+    width: 80px;
+    height: 35px;
+    background: snow;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size:15px;
+    border:2px solid snow;
+    font-family: Geneva;
+    transition: .3s ease;
+}
+.btn:hover{
+    background: rgba(218, 228, 194, 0.5);
+}
+.btn:focus{
+    outline:none;
+}
+.srch:focus{
+    outline:none
+}
+.content{
+    width: 1200px;
+    height:auto;
+    color: white;
+    position: relative;
+}
+.par{
+padding-left: 170px;
+padding-bottom: 20px;
+font-family: Brush Script MT, cursive;
+font-size: 20px;
+letter-spacing: 1.2px;
+font-family: Geneva;
+font-weight: bold;
+}
+.content h1{
+    font-family: Geneva;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    padding-top:90px;
+    padding-right: 350px;
+    padding-left: 150px;
+    padding-bottom: 13px;
+}
+.content .cn{
+width:140px;
+height: 30px;
+background-color: snow;
+border: none;
+float:left;
+margin-left: 150px;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius:10px ;
+border-top-right-radius: 10px;
+font-style: Geneva;
+font-size:15px;
+cursor:pointer
+}
+.content .cn a{
+    text-decoration:none;
+    font-family: sans-serif;
+    transition: .2s ease;
+}
+.cn:hover{
+   background:rgb(200, 206, 202);
+}
+.form{
+    width:250px;
+    height:380px;
+    background: rgb(212, 204, 204);
+    position:absolute;
+    top:-10px;
+    left:1170px;
+    border-radius: 20px;
+    padding:35px;
+    margin-top:80px;
+}
+.form h2{
+ width:220px;
+ font-family: Geneva;
+ text-align:center;
+ color: black;
+ font-weight: bold;
+ padding-bottom: 10px;
+ font-size: 30px;
+ background-color: snow;
+ border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+ border-top-right-radius: 10px;
+ border-top-left-radius: 10px;
+ padding-top: 10px;
+ padding-left: 5px;
+ padding-bottom: 10px;
+}
+.form input{
+width: 240px;
+height: 55px;
+background: transparent;
+border-bottom: 1px solid black;
+border-top:none;
+border-left: none;
+border-right:none ;
+color: tan;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color:#0bb399;
+    font-family: Geneva;
+    font-size: 20px;
+}
+
+.btnn{
+    width:240px;
+    height: 40px;
+    background: snow;
+    border: none;
+    margin-top: 18px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.2s ease;
+    font-family:Geneva;
+}
+.btnn:hover{
+    background: rgb(194, 214, 216);
+
+}
+.btnn a{
+  text-decoration:none;
+  color:black;
+  font-weight: bold;
+  transition:.2s ease;
+}
+
+.link{
+    font-family: Geneva;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    color: rgba(119, 37, 37, 0.5);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.link a{
+    text-decoration: none;
+    color:rgb(11, 152, 170);
+    padding-left: 10px;
+    font-weight: bold;
+}
+.link a:hover{
+    color:red
+}  
+.liw{
+    padding-top: 3px;
+   color: rgba(119, 37, 37, 0.5);
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.icons a{
+    text-decoration: none;
+    color: rgba(119, 37, 37, 0.5);
+}
+.icons ion-icon{
+    color: snow;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: .2s ease;
+}
+
+.icons ion-icon:hover{
+   color: rgb(35, 178, 189);
+
+}
+
+.footer {
+	color:snow;
+	background-color:black;
+}
